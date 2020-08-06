@@ -1,0 +1,10 @@
+<apex:page standardController="Contact">
+
+    <apex:form >
+        <apex:inputfield value="{!Contact.firstName}" />
+        <apex:inputfield value="{!Contact.lastName}" />
+        <apex:inputfield value="{!Contact.Email}" />
+        <apex:commandbutton action="{!save}" value="Save"/>
+    </apex:form>
+
+</apex:page>

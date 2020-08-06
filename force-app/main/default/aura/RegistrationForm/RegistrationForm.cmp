@@ -1,0 +1,12 @@
+<aura:component >
+    <ui:inputSelect label="Salutation" aura:id="salutatoin" >
+        <ui:inputSelectOption text=" Dr." label=" Dr." />
+        <ui:inputSelectOption text="Mr." label="Mr." />
+        <ui:inputSelectOption text="Mrs." label="Mrs." />
+        <ui:inputSelectOption text="Ms." label="Ms." />
+    </ui:inputSelect>
+	<ui:inputText label="First Name" aura:id="fname" placeholder="First"/>
+    <ui:inputText label="Last Name" aura:id="lname" placeholder="Last"/>
+    <ui:inputPhone label="Phone Number" aura:id="phone" placeholder="First"/>
+	<ui:button aura:id="outputButton" label="Submit" />
+</aura:component>
