@@ -1,7 +1,0 @@
-<apex:page >
-  Firstname: {!$User.FirstName}" 
-  Lastname: {!$User.LastName}"
-  Email: {!$User.Email}" 
-  Phone: {!$User.Phone}" 
-  Title: {!$User.Title}" 
-</apex:page>
