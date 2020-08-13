@@ -5,8 +5,12 @@
         <name>CustomApplication</name>
     </types>
     <types>
-    <members>Task.Achievable_Targets</members>
-    <name>RecordType</name>
-</types>
+        <members>*</members>
+        <name>flexipages</name>
+    </types>
+    <types>
+        <members>Task.Achievable_Targets</members>
+        <name>RecordType</name>
+    </types>
     <version>48.0</version>
 </Package>
